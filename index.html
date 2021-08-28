@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eduford</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="banner-text">
+      <h1>World's Biggest University</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam perspiciatis sunt suscipit laboriosam <br>
+        aliquam, non id dolor! s.</p>
+      <div class="view-all"><a href="#">View Us to Know More</a></div>
+    </div>
+  </header>
+  <section class="header">
+    <nav class="nav-bar">
+      <a href="#"><img src="logo.png"></a>
+      <div class="nav-links" id="nav-links2">
+        <ul id="list">
+          <li class="close add-ons" onclick="showMenu();"><img src="close.png"></li>
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">COURSE</a></li>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">CONTENT</a></li>
+        </ul>
+      </div>
+      <div class="menu add-ons" onclick="showMenu();"><img src="menu.png"></div>
+    </nav>
+  </section> 
+
+  <section class="courses">
+    <div class="title-text">
+      <h2>Courses We Offer</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="division">
+      <div class="box">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere illo quas ipsa itaque, aperiam consequatur culpa alias non numquam commodi omnis consequuntur pariatur  </p>
+      </div>
+      <div class="box">
+        <h3>Degree</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere illo quas ipsa itaque, aperiam consequatur culpa alias non numquam commodi omnis consequuntur pariatur  </p>
+      </div>
+      <div class="box">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere illo quas ipsa itaque, aperiam consequatur culpa alias non numquam commodi omnis consequuntur pariatur  </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="campus">
+    <div class="title-text">
+      <h2>Our Global Campus</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="box">
+      <div class="img-box">
+        <img src="london.png">
+        <div class="title"><p>LONDON</p></div>
+      </div>
+      <div class="img-box">
+        <img src="newyork.png">
+        <div class="title"><p>NEW YORK</p></div>
+      </div>
+      <div class="img-box">
+        <img src="washington.png">
+        <div class="title"><p>WASHINGTON</p></div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="facilities">
+    <div class="title-text">
+      <h2>Our Facilities</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="content">
+      <div class="box">
+        <div class="img-box">
+          <img src="library.png">
+        </div>
+        <div class="note">
+          <h3>World Class Library</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, amet?</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="basketball.png">
+        </div>
+        <div class="note">
+          <h3>Largest Plaay Ground</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, amet?</p>
+        </div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="cafeteria.png">
+        </div>
+        <div class="note">
+          <h3>Tasty and Healthy Food</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, amet?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonies">
+    <div class="title-text">
+      <h2>Our Facilities</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+    <div class="comments">
+      <div class="box">
+        <div class="img-box">
+          <img src="user1.jpg">
+        </div>
+        <div class="text">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi aspernatur expedita alias fugiat enim eaque cumque sequi iusto, sunt voluptates rerum voluptate temporibus optio!</p>
+          <h4>Christine Berkley</h4></div>
+      </div>
+      <div class="box">
+        <div class="img-box">
+          <img src="user2.jpg">
+        </div>
+        <div class="text">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi aspernatur expedita alias fugiat enim eaque cumque sequi iusto, sunt voluptates rerum voluptate temporibus optio!</p>
+          <h4>Christine Berkley</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="enroll">
+    <div class="text"><h2>Enroll For Our Various Online Courses Anywhere From The World</h2>
+    </div>
+    <div class="contact"><a href="#">CONTACT US</a></div>
+  </section>
+
+  <section class="about-us">
+    <div class="text"><h4>About Us</h4><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, fugit at natus sapiente eveniet suscipit ducimus dolorem quod aperiam iste.</p>
+    </div>
+    <div class="contact-img">
+      <img src="facebook.png">
+      <img src="twitter.png">
+      <img src="instagram.png">
+    </div>
+    <div class="footer"><p>made by @topzz100</p></div>
+  </section>
+
+  <script type="text/javascript">
+    function showMenu(){
+      const navLinks=document.getElementById("list");
+      navLinks.classList.toggle('list');
+    }
+  </script>
+
+</body>
+</html>
